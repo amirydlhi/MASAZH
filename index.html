@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="وب‌اپلیکیشن رزرو آنلاین ماساژ درمانی" />
+  <title>تن‌یار | ماساژ درمانی و رزرو آنلاین</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/lucide-static@0.468.0/font/Lucide.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="container header-inner">
+      <a class="brand" href="#home"><span class="brand-mark">ت</span><span>تن‌یار</span></a>
+      <nav class="main-nav" aria-label="ناوبری اصلی">
+        <a href="#services">خدمات</a><a href="#pricing">قیمت‌ها</a><a href="#gallery">فضای کار</a><a href="#reviews">نظرات</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-primary" data-open-booking><i class="icon-calendar-days"></i> رزرو نوبت</button>
+        <button class="icon-btn" id="open-admin" title="پنل مدیریت"><i class="icon-settings"></i></button><button class="icon-btn" id="open-customer-portal" title="پیگیری رزرو"><i class="icon-user-round"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">ماساژ درمانی، با تمرکز بر بدن شما</p>
+          <h1>آرامش واقعی،<br><span>با برنامه‌ای برای بدن شما.</span></h1>
+          <p class="hero-text">جلسات تخصصی ماساژ با انتخاب نوع خدمت، مدت زمان و فشار مناسب برای نیاز بدنی شما.</p>
+          <div class="hero-actions"><button class="btn btn-primary btn-lg" data-open-booking>رزرو جلسه</button><a class="btn btn-secondary btn-lg" href="#services">مشاهده خدمات</a></div>
+          <div class="hero-meta"><div><strong>+۸۵۰</strong><span>جلسه انجام‌شده</span></div><div><strong>۴.۹/۵</strong><span>رضایت مشتریان</span></div><div><strong>۱۰+</strong><span>سال تجربه</span></div></div>
+        </div>
+        <div class="hero-image-wrap"><img class="hero-image" src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=85" alt="اتاق ماساژ آرام و حرفه‌ای"><div class="hero-caption"><span class="caption-label">امروز</span><strong>رزرو آنلاین تا ساعت ۲۰:۰۰</strong></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container"><div class="section-head"><div><p class="eyebrow">خدمات</p><h2>جلسه‌ای متناسب با نیاز بدن</h2></div><button class="text-btn" data-open-booking>انتخاب و رزرو <i class="icon-arrow-left"></i></button></div>
+      <div class="cards service-cards" id="service-cards"></div></div>
+    </section>
+
+    <section class="section section-tint" id="pricing">
+      <div class="container"><div class="section-head"><div><p class="eyebrow">تعرفه</p><h2>قیمت‌گذاری شفاف</h2></div><span class="muted">قیمت‌ها برای هر جلسه هستند</span></div><div class="pricing-table" id="pricing-table"></div></div>
+    </section>
+
+    <section class="section" id="gallery"><div class="container"><div class="section-head"><div><p class="eyebrow">گالری</p><h2>فضایی ساده برای رها شدن</h2></div></div><div class="gallery-grid"><img src="https://images.unsplash.com/photo-1556760544-74068565f05c?auto=format&fit=crop&w=1000&q=85" alt="فضای درمانی"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85" alt="اتاق ماساژ"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85" alt="تخت ماساژ"><img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1000&q=85" alt="فضای آرامش"></div></div></section>
+
+    <section class="section section-tint" id="reviews"><div class="container"><div class="section-head"><div><p class="eyebrow">تجربه مشتریان</p><h2>چیزی که مشتری‌ها می‌گویند</h2></div></div><div class="review-grid"><article class="review"><div class="stars">★★★★★</div><p>«فشار دست دقیقاً مطابق چیزی بود که قبل از جلسه توضیح داده بودم. بعد از جلسه گرفتگی شانه‌ام خیلی کمتر شد.»</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80" alt="مشتری"><div><strong>نگار</strong><span>جلسه بافت عمیق</span></div></div></article><article class="review"><div class="stars">★★★★★</div><p>«فرآیند رزرو خیلی راحت بود و یادداشت‌های جلسه قبلی باعث شد درمانگر سریع متوجه شرایط بدنم شود.»</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&q=80" alt="مشتری"><div><strong>آرش</strong><span>ماساژ اسپرت</span></div></div></article><article class="review"><div class="stars">★★★★★</div><p>«محیط تمیز، آرام و حرفه‌ای. بخش باشگاه مشتریان هم باعث شد جلساتم را منظم‌تر کنم.»</p><div class="reviewer"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=160&q=80" alt="مشتری"><div><strong>سارا</strong><span>ماساژ سوئدی</span></div></div></article></div></div></section>
+
+    <section class="loyalty-banner"><div class="container loyalty-inner"><div><p class="eyebrow">باشگاه تن‌یار</p><h2>هر جلسه، یک قدم نزدیک‌تر به هدیه شما</h2><p>بعد از ۵ جلسه، یک تخفیف ویژه و بعد از ۱۰ جلسه، یک جلسه هدیه دریافت می‌کنید.</p></div><button class="btn btn-dark" id="open-customer">مشاهده باشگاه مشتریان</button></div></section>
+  </main>
+
+  <div class="modal" id="admin-login-modal" aria-hidden="true"><div class="modal-panel"><div class="modal-head"><div><p class="eyebrow">دسترسی مدیر</p><h3>ورود به پنل مدیریت</h3></div><button class="icon-btn" data-close><i class="icon-x"></i></button></div><form id="admin-login-form" class="form-grid"><label>نام کاربری<input required name="username" autocomplete="username" value="admin"></label><label>رمز عبور<input required type="password" name="password" autocomplete="current-password"></label><div class="form-summary" id="admin-login-message">برای امنیت، اطلاعات نوبت‌ها فقط بعد از ورود ادمین نمایش داده می‌شود.</div><button class="btn btn-primary btn-lg full" type="submit">ورود</button></form></div></div>
+
+  <div class="modal" id="customer-portal-modal" aria-hidden="true"><div class="modal-panel wide"><div class="modal-head"><div><p class="eyebrow">پیگیری رزرو</p><h3>رزروهای من</h3></div><button class="icon-btn" data-close><i class="icon-x"></i></button></div><form id="customer-login-form" class="form-grid"><label>شماره تماس<input required name="phone" inputmode="tel" placeholder="09xxxxxxxxx"></label><label>کد رزرو<input required name="code" placeholder="مثلاً A1B2C3D4"></label><div class="form-summary">کد رزرو بعد از ثبت نوبت نمایش داده می‌شود؛ آن را برای پیگیری رزرو نزد خود نگه دارید.</div><button class="btn btn-primary btn-lg full" type="submit">نمایش رزروهای من</button></form><div id="customer-portal-content" style="margin-top:18px"></div></div></div>
+
+  <div class="modal" id="booking-modal" aria-hidden="true"><div class="modal-panel"><div class="modal-head"><div><p class="eyebrow">رزرو آنلاین</p><h3>نوبت خود را انتخاب کنید</h3></div><button class="icon-btn modal-close" data-close><i class="icon-x"></i></button></div><form id="booking-form" class="form-grid"><label>نام و نام خانوادگی<input required name="name" placeholder="مثلاً سارا احمدی"></label><label>شماره تماس<input required name="phone" inputmode="tel" placeholder="09xxxxxxxxx"></label><label>نوع خدمت<select required name="service" id="booking-service"></select></label><label>تاریخ<input required type="date" name="date" id="booking-date"></label><label>ساعت<select required name="time" id="booking-time"></select></label><label>یادداشت <span class="optional">اختیاری</span><input name="note" placeholder="مثلاً فشار متوسط"></label><div class="form-summary" id="booking-summary"></div><button class="btn btn-primary btn-lg full" type="submit">ثبت نوبت</button></form></div></div>
+
+  <aside class="drawer" id="admin-drawer" aria-hidden="true"><div class="drawer-head"><div><p class="eyebrow">مدیریت</p><h3>پنل مدیریت</h3></div><button class="icon-btn" data-close-admin><i class="icon-x"></i></button></div><div class="admin-tabs"><button class="active" data-tab="appointments">نوبت‌ها</button><button data-tab="services">خدمات</button><button data-tab="hours">ساعات کاری</button><button data-tab="customers">مشتریان</button></div><div class="admin-content" id="admin-content"></div></aside>
+
+  <div class="modal" id="customer-modal" aria-hidden="true"><div class="modal-panel wide"><div class="modal-head"><div><p class="eyebrow">باشگاه مشتریان</p><h3>پروفایل مشتری</h3></div><button class="icon-btn modal-close" data-close><i class="icon-x"></i></button></div><div id="customer-view"></div></div></div>
+
+  <footer><div class="container footer-inner"><div><a class="brand" href="#home"><span class="brand-mark">ت</span><span>تن‌یار</span></a><p>رزرو و مدیریت جلسات ماساژ درمانی.</p></div><div><span>ساعات کاری</span><strong>شنبه تا پنجشنبه · ۹ تا ۲۰</strong></div><div><span>تماس</span><strong>۰۹۱۲ ۱۲۳ ۴۵۶۷</strong></div></div></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
