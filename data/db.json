@@ -1,1 +1,125 @@
-
+{
+  "services": [
+    {
+      "id": "swedish",
+      "name": "ماساژ سوئدی",
+      "desc": "حرکات آرام و ریتمیک برای کاهش تنش و ایجاد آرامش عمومی بدن.",
+      "minutes": 60,
+      "price": 850000
+    },
+    {
+      "id": "deep",
+      "name": "ماساژ بافت عمیق",
+      "desc": "فشار عمیق و هدفمند برای گرفتگی عضلات و تنش مزمن.",
+      "minutes": 75,
+      "price": 1100000
+    },
+    {
+      "id": "sport",
+      "name": "ماساژ اسپرت",
+      "desc": "مناسب قبل یا بعد از تمرین برای ریکاوری و افزایش انعطاف‌پذیری.",
+      "minutes": 60,
+      "price": 950000
+    }
+  ],
+  "hours": [
+    [
+      "09:00",
+      "20:00"
+    ],
+    [
+      "09:00",
+      "20:00"
+    ],
+    [
+      "09:00",
+      "20:00"
+    ],
+    [
+      "09:00",
+      "20:00"
+    ],
+    [
+      "09:00",
+      "20:00"
+    ],
+    [
+      "10:00",
+      "18:00"
+    ],
+    [
+      "10:00",
+      "18:00"
+    ]
+  ],
+  "appointments": [
+    {
+      "id": "a_1788369165123",
+      "customerId": "c_1788358511932",
+      "name": "امیررضا یدالهی",
+      "phone": "09057495429",
+      "service": "deep",
+      "duration": 75,
+      "price": 1100000,
+      "date": "2026-09-05",
+      "time": "17:00",
+      "note": "",
+      "status": "confirmed",
+      "customerCode": "64778164",
+      "createdAt": "2026-09-02T17:12:45.123Z"
+    },
+    {
+      "id": "a_1788358511932",
+      "customerId": "c_1788358511932",
+      "name": "امیررضا یدالهی",
+      "phone": "09057495429",
+      "service": "deep",
+      "duration": 75,
+      "price": 1100000,
+      "date": "2026-09-03",
+      "time": "10:00",
+      "note": "",
+      "status": "pending",
+      "customerCode": "D3F37417",
+      "createdAt": "2026-09-02T14:15:11.932Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "c_1788358511932",
+      "name": "امیررضا یدالهی",
+      "phone": "09057495429",
+      "sessions": 0,
+      "notes": "",
+      "avatar": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=85",
+      "history": []
+    }
+  ],
+  "reviews": [],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=85",
+      "alt": "اتاق ماساژ"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85",
+      "alt": "فضای آرامش"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1000&q=85",
+      "alt": "تخت ماساژ"
+    }
+  ],
+  "loyalty": {
+    "tiers": [
+      {
+        "sessions": 5,
+        "reward": "تخفیف ویژه"
+      },
+      {
+        "sessions": 10,
+        "reward": "یک جلسه رایگان"
+      }
+    ]
+  }
+}
